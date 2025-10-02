@@ -30,16 +30,6 @@ It helps visualize churn rate, churn reasons, and customer behavior across demog
   - Churn by Age Group (Bar + Line Chart)
   - Churn by Geography (Heat Map)
 
----
-
-## 📂 Dataset
-
-The dashboard is built on customer churn data containing:
-- Customer demographics (Age, Region, Contract Type)
-- Service usage & charges
-- Churn status & reason for churn
-
-> ⚠️ Note: Dataset is anonymized for privacy.
 
 ---
 
