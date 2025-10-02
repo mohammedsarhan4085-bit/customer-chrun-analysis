@@ -1,47 +1,73 @@
 # 📊 Customer Churn Analysis Dashboard
 
-This repository contains an interactive dashboard for analyzing **Customer Churn** in the telecom industry.  
-The goal of this project is to understand churn behavior, identify high-risk customer segments, and track KPIs that support data-driven decisions.
+This repository provides an **interactive data analysis dashboard** for studying **customer churn** patterns.  
+It helps visualize churn rate, churn reasons, and customer behavior across demographics, geography, and contract types.
 
 ---
 
-## 🚀 Project Overview
-Customer churn is when a customer stops doing business with a company. Reducing churn is critical for increasing revenue and profitability.  
-This project leverages Excel (and can be extended to Power BI / Python) to visualize churn insights.
+## 🚀 Features
+
+- **Overall Metrics**
+  - Total Customers: `6687`
+  - Churned Customers: `1796`
+  - Churn Rate: `26.86%`
+  - Average Monthly Charges: `$31.03`
+  - ARPU (Average Revenue per User): `$1084`
+
+- **Churn Breakdown**
+  - **By Contract Type**: Month-to-Month contracts show the highest churn rate.
+  - **By Age Group**: Senior customers have the highest churn percentage.
+  - **By Reason**:
+    - Competitor made better offer (37%)
+    - Competitor had better devices (37%)
+    - Competitor offered more data (14%)
+    - Competitor offered higher download speeds (12%)
+  - **By Geography**: Churn distribution across US states.
+
+- **Visualizations Included**
+  - Churn Reasons (Pie Chart)
+  - Churn Rate by Contract Type (Donut Chart)
+  - Churn by Age Group (Bar + Line Chart)
+  - Churn by Geography (Heat Map)
 
 ---
 
-## 🔑 Key KPIs
-- **Total Customers:** 6687  
-- **Churned Customers:** 1796  
-- **Churn Rate:** 26.86%  
-- **Average Monthly Charges:** $31.03  
-- **ARPU (Average Revenue Per User):** $1084  
+## 📂 Dataset
+
+The dashboard is built on customer churn data containing:
+- Customer demographics (Age, Region, Contract Type)
+- Service usage & charges
+- Churn status & reason for churn
+
+> ⚠️ Note: Dataset is anonymized for privacy.
 
 ---
 
-## 📈 Dashboard Features
-- **Churn Reason Category** → Breakdown of why customers are leaving (competitor offers, devices, prices, etc.)  
-- **Contract Type Churned** → Highest churn comes from *Month-to-Month* contracts.  
-- **Demographic Churned** → Seniors show the highest churn rate compared to other age groups.  
-- **Geographic Distribution** → Map visualization of churn across regions.  
-- **Age Churned Grouped** → Churn rate and number of churned customers by age brackets.  
+## 🛠️ Tools & Technologies
+
+- **Excel / Power BI / Tableau** (Dashboard Visualization)
+- **Python (Pandas, Matplotlib, Seaborn, Plotly)** *(optional, for data preprocessing)*
+- **SQL** *(if dataset is from relational DB)*
 
 ---
 
-## 🛠 Tools & Technologies
-- **Excel / Pivot Tables** for data modeling  
-- **Excel Charts & Slicers** for interactive dashboard  
-- **Data Cleaning** in Excel (Power Query optional)  
+## 📸 Dashboard Preview
+
+![Customer Churn Analysis Dashboard](DASHBOARD%20FOR%20CHURN.PNG)
 
 ---
 
-## 📷 Dashboard Preview
-![Dashboard Preview](DASHBOARD%20FOR%20CHRUN.PNG)
+## 📊 Insights
+
+- **Month-to-Month contracts** are the riskiest with **88% churn**.
+- **Senior customers** churn the most (39%).
+- **Competitor offers** are the top churn drivers.
+- **Certain US states** show higher churn concentration, requiring localized strategies.
 
 ---
 
-## 📌 How to Use
-1. Clone this repository:  
+## 🚀 Usage
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/customer-churn-dashboard.git
+   git clone https://github.com/your-username/customer-churn-analysis.git
